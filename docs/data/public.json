@@ -1,9 +1,1416 @@
 {
-  "generated_at": null,
-  "owners": ["todiane"],
-  "config": { "stale_days": 14, "unanswered_issue_days": 7 },
-  "totals": {},
-  "repos": [],
+  "generated_at": "2026-10-15T17:00:16.182Z",
+  "owners": [
+    "todiane"
+  ],
+  "config": {
+    "stale_days": 14,
+    "unanswered_issue_days": 7
+  },
+  "totals": {
+    "repos": 33,
+    "stars": 13,
+    "forks": 6,
+    "open_prs": 0,
+    "ready_prs": 0,
+    "open_issues": 20
+  },
+  "repos": [
+    {
+      "full_name": "todiane/bootstrap-landing-page",
+      "owner": "todiane",
+      "name": "bootstrap-landing-page",
+      "url": "https://github.com/todiane/bootstrap-landing-page",
+      "description": "Bootstrap Landing Page",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-11-29T13:05:50Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/corri-construction-p3",
+      "owner": "todiane",
+      "name": "corri-construction-p3",
+      "url": "https://github.com/todiane/corri-construction-p3",
+      "description": "Code Institute Project 3",
+      "language": "Python",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-08-31T15:35:58Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/cycle-of-life-p2",
+      "owner": "todiane",
+      "name": "cycle-of-life-p2",
+      "url": "https://github.com/todiane/cycle-of-life-p2",
+      "description": "Create A Game For Project Two",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-08-25T13:40:32Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/inspirational",
+      "owner": "todiane",
+      "name": "inspirational",
+      "url": "https://github.com/todiane/inspirational",
+      "description": "Inspirational Guidance Django Personal Growth Hub",
+      "language": "HTML",
+      "license": null,
+      "topics": [
+        "personal-development",
+        "self-improvement"
+      ],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-11T16:05:13Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 69,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/project_tracker",
+      "owner": "todiane",
+      "name": "project_tracker",
+      "url": "https://github.com/todiane/project_tracker",
+      "description": "Using Django and Django REST Framework to track projects",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-09T14:52:53Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 71,
+      "health": {
+        "score": 96,
+        "parts": {
+          "activity": 25,
+          "ci": 20,
+          "license": 10,
+          "community": 11,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/secure-uploads",
+      "owner": "todiane",
+      "name": "secure-uploads",
+      "url": "https://github.com/todiane/secure-uploads",
+      "description": "A drop-in module that adds comprehensive file upload security to any Django project.",
+      "language": "Python",
+      "license": null,
+      "topics": [
+        "django",
+        "django-media-file"
+      ],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-01-18T08:28:57Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 48,
+        "parts": {
+          "activity": 4,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/sologamy-p1-v2",
+      "owner": "todiane",
+      "name": "sologamy-p1-v2",
+      "url": "https://github.com/todiane/sologamy-p1-v2",
+      "description": null,
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-08-11T20:44:30Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 14,
+      "health": {
+        "score": 42,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 2,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/sologamyp1",
+      "owner": "todiane",
+      "name": "sologamyp1",
+      "url": "https://github.com/todiane/sologamyp1",
+      "description": "Sologamy Website Project One",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-08-11T21:52:36Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/stream",
+      "owner": "todiane",
+      "name": "stream",
+      "url": "https://github.com/todiane/stream",
+      "description": null,
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "stream20i",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-05T22:15:58Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 14,
+      "health": {
+        "score": 67,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 0,
+          "community": 2,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/sync-video",
+      "owner": "todiane",
+      "name": "sync-video",
+      "url": "https://github.com/todiane/sync-video",
+      "description": "Video with synced text",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-08-29T22:46:06Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/todiane",
+      "owner": "todiane",
+      "name": "todiane",
+      "url": "https://github.com/todiane/todiane",
+      "description": "Config files for my GitHub profile.",
+      "language": "HTML",
+      "license": null,
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-14T13:35:26Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 79,
+        "parts": {
+          "activity": 25,
+          "ci": 20,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/toDianeDev",
+      "owner": "todiane",
+      "name": "toDianeDev",
+      "url": "https://github.com/todiane/toDianeDev",
+      "description": "About Me",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-03-13T17:04:50Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/ucd-resume",
+      "owner": "todiane",
+      "name": "ucd-resume",
+      "url": "https://github.com/todiane/ucd-resume",
+      "description": "Bootstrap Resume Project",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-09-10T17:02:48Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/asset-processing-service",
+      "owner": "todiane",
+      "name": "asset-processing-service",
+      "url": "https://github.com/todiane/asset-processing-service",
+      "description": null,
+      "language": "JavaScript",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-04-12T16:39:34Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 0,
+      "health": {
+        "score": 40,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 0,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/astro",
+      "owner": "todiane",
+      "name": "astro",
+      "url": "https://github.com/todiane/astro",
+      "description": "Corrison API with Astro Front End",
+      "language": "Astro",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-07-14T17:37:08Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/cafe-menu",
+      "owner": "todiane",
+      "name": "cafe-menu",
+      "url": "https://github.com/todiane/cafe-menu",
+      "description": "Cafe Menu",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-07-06T09:36:05Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/corrison",
+      "owner": "todiane",
+      "name": "corrison",
+      "url": "https://github.com/todiane/corrison",
+      "description": "eCommerce structure",
+      "language": "Python",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-06-30T16:39:34Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/creative-coding",
+      "owner": "todiane",
+      "name": "creative-coding",
+      "url": "https://github.com/todiane/creative-coding",
+      "description": "Creative Coding and Generative Art Projects",
+      "language": "Astro",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-10-07T13:00:52Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/deskledger",
+      "owner": "todiane",
+      "name": "deskledger",
+      "url": "https://github.com/todiane/deskledger",
+      "description": "Local hosted software also available for self-hosting for one person business owners - solo professionals and self-employed looking for  simple to use bookkeeping software.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "bookkeeping",
+        "software",
+        "uk"
+      ],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-09T15:24:35Z",
+      "ci": "none",
+      "latest_release": {
+        "tag": "v0.1.1",
+        "published_at": "2026-10-09T08:32:00Z",
+        "url": "https://github.com/todiane/deskledger/releases/tag/v0.1.1"
+      },
+      "unreleased_commits": 3,
+      "community": 57,
+      "health": {
+        "score": 84,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 10,
+          "community": 9,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/flask_api",
+      "owner": "todiane",
+      "name": "flask_api",
+      "url": "https://github.com/todiane/flask_api",
+      "description": null,
+      "language": null,
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2024-08-31T15:28:12Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 0,
+      "health": {
+        "score": 40,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 0,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/flexbox-photo-gallery",
+      "owner": "todiane",
+      "name": "flexbox-photo-gallery",
+      "url": "https://github.com/todiane/flexbox-photo-gallery",
+      "description": "Two column photo gallery with cats from Free Code Camp",
+      "language": "Dockerfile",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-07-06T15:35:48Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/invoice-generator",
+      "owner": "todiane",
+      "name": "invoice-generator",
+      "url": "https://github.com/todiane/invoice-generator",
+      "description": "Invoice Generator using Django",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-14T12:57:41Z",
+      "ci": "none",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "published_at": "2026-10-14T13:02:38Z",
+        "url": "https://github.com/todiane/invoice-generator/releases/tag/v1.0.0"
+      },
+      "unreleased_commits": 0,
+      "community": 57,
+      "health": {
+        "score": 84,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 10,
+          "community": 9,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/love-maths",
+      "owner": "todiane",
+      "name": "love-maths",
+      "url": "https://github.com/todiane/love-maths",
+      "description": "Love Maths Walkthrough Project",
+      "language": "JavaScript",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-07-30T09:20:26Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/love-running",
+      "owner": "todiane",
+      "name": "love-running",
+      "url": "https://github.com/todiane/love-running",
+      "description": "Love Running Walkthrough Project",
+      "language": "CSS",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2023-07-30T09:42:44Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/microapp-idea-builder",
+      "owner": "todiane",
+      "name": "microapp-idea-builder",
+      "url": "https://github.com/todiane/microapp-idea-builder",
+      "description": "Micro-App Idea Builder GitHub Page",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-11T10:42:50Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 79,
+        "parts": {
+          "activity": 25,
+          "ci": 20,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/news",
+      "owner": "todiane",
+      "name": "news",
+      "url": "https://github.com/todiane/news",
+      "description": "Django and DRF news aggregator",
+      "language": "Python",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-05-29T14:32:38Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/open-source-dashboard",
+      "owner": "todiane",
+      "name": "open-source-dashboard",
+      "url": "https://github.com/todiane/open-source-dashboard",
+      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
+      "language": "JavaScript",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-15T08:24:59Z",
+      "ci": "pending",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 71,
+        "parts": {
+          "activity": 25,
+          "ci": 12,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/our-spot",
+      "owner": "todiane",
+      "name": "our-spot",
+      "url": "https://github.com/todiane/our-spot",
+      "description": null,
+      "language": "Python",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 20,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-04-09T11:42:01Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 54,
+        "parts": {
+          "activity": 0,
+          "ci": 20,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/pen",
+      "owner": "todiane",
+      "name": "pen",
+      "url": "https://github.com/todiane/pen",
+      "description": null,
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-02-10T19:43:16Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 14,
+      "health": {
+        "score": 46,
+        "parts": {
+          "activity": 4,
+          "ci": 10,
+          "license": 0,
+          "community": 2,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/pipeline",
+      "owner": "todiane",
+      "name": "pipeline",
+      "url": "https://github.com/todiane/pipeline",
+      "description": "CRM software",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-09T20:34:22Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 42,
+      "health": {
+        "score": 81,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 10,
+          "community": 6,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/poster-palace",
+      "owner": "todiane",
+      "name": "poster-palace",
+      "url": "https://github.com/todiane/poster-palace",
+      "description": "Poster Palace eCommerce Store - PP5",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-01-25T11:50:52Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 42,
+      "health": {
+        "score": 46,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 6,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/promptsite",
+      "owner": "todiane",
+      "name": "promptsite",
+      "url": "https://github.com/todiane/promptsite",
+      "description": null,
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-12-10T11:17:21Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 0,
+      "health": {
+        "score": 44,
+        "parts": {
+          "activity": 4,
+          "ci": 10,
+          "license": 0,
+          "community": 0,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/welcome-window",
+      "owner": "todiane",
+      "name": "welcome-window",
+      "url": "https://github.com/todiane/welcome-window",
+      "description": "Window for chat and video communication",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-05-17T14:07:04Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 54,
+        "parts": {
+          "activity": 10,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    }
+  ],
   "prs": [],
-  "issues": []
+  "issues": [
+    {
+      "repo": "todiane/our-spot",
+      "number": 2,
+      "title": "Save images",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/2",
+      "created_at": "2023-10-07T14:13:29Z",
+      "updated_at": "2023-10-22T14:21:19Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 3,
+      "title": "Captions and tags",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/3",
+      "created_at": "2023-10-07T14:15:59Z",
+      "updated_at": "2023-11-01T20:31:38Z",
+      "comments": 0,
+      "labels": [
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 4,
+      "title": "create structure",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/4",
+      "created_at": "2023-10-07T14:20:06Z",
+      "updated_at": "2023-10-09T16:48:20Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 5,
+      "title": "Like Content and add Comments",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/5",
+      "created_at": "2023-10-07T14:24:32Z",
+      "updated_at": "2023-11-01T18:46:06Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 6,
+      "title": "Create Albums",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/6",
+      "created_at": "2023-10-07T14:26:30Z",
+      "updated_at": "2023-11-05T11:33:00Z",
+      "comments": 0,
+      "labels": [
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 8,
+      "title": "Follow Users",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/8",
+      "created_at": "2023-10-07T14:28:29Z",
+      "updated_at": "2023-11-01T20:29:13Z",
+      "comments": 0,
+      "labels": [
+        "An-essential",
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 10,
+      "title": "Share on social media",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/10",
+      "created_at": "2023-10-07T14:31:40Z",
+      "updated_at": "2023-11-01T20:30:08Z",
+      "comments": 0,
+      "labels": [
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 13,
+      "title": "Trending images",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/13",
+      "created_at": "2023-10-07T14:34:50Z",
+      "updated_at": "2023-11-05T11:31:30Z",
+      "comments": 0,
+      "labels": [
+        "could-have",
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 14,
+      "title": "Map outline",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/14",
+      "created_at": "2023-10-07T14:35:55Z",
+      "updated_at": "2023-11-01T20:27:35Z",
+      "comments": 0,
+      "labels": [
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 15,
+      "title": "Save other users' images",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/15",
+      "created_at": "2023-10-07T14:36:47Z",
+      "updated_at": "2023-11-01T20:26:57Z",
+      "comments": 0,
+      "labels": [
+        "could-have",
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 16,
+      "title": "personalised recommendations",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/16",
+      "created_at": "2023-10-07T14:37:49Z",
+      "updated_at": "2023-11-01T20:26:09Z",
+      "comments": 0,
+      "labels": [
+        "Future"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 17,
+      "title": "Register and login",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/17",
+      "created_at": "2023-10-07T14:40:24Z",
+      "updated_at": "2023-10-09T17:01:04Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 18,
+      "title": "Add Locations",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/18",
+      "created_at": "2023-10-10T04:25:09Z",
+      "updated_at": "2023-10-22T14:21:34Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 19,
+      "title": "Include example Profiles",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/19",
+      "created_at": "2023-10-12T13:27:05Z",
+      "updated_at": "2023-11-01T18:44:13Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 20,
+      "title": "Create Site Pages",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/20",
+      "created_at": "2023-10-17T08:49:23Z",
+      "updated_at": "2023-11-01T18:47:03Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 21,
+      "title": "Bits and Bobs To Do",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/21",
+      "created_at": "2023-10-19T06:07:08Z",
+      "updated_at": "2023-11-01T20:20:10Z",
+      "comments": 1,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 22,
+      "title": "README Creation and Admin Stuff",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/22",
+      "created_at": "2023-10-19T06:16:36Z",
+      "updated_at": "2023-11-05T00:08:19Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 23,
+      "title": "Search for Images",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/23",
+      "created_at": "2023-11-02T17:15:22Z",
+      "updated_at": "2023-11-02T17:15:28Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 24,
+      "title": "EPIC: Create Test Driven Data",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/24",
+      "created_at": "2023-11-04T13:25:18Z",
+      "updated_at": "2023-11-04T13:30:24Z",
+      "comments": 0,
+      "labels": [
+        "An-essential"
+      ],
+      "unanswered": false
+    },
+    {
+      "repo": "todiane/our-spot",
+      "number": 25,
+      "title": "EPIC: User Delete Account",
+      "author": "todiane",
+      "url": "https://github.com/todiane/our-spot/issues/25",
+      "created_at": "2023-11-05T11:29:57Z",
+      "updated_at": "2023-11-05T11:29:57Z",
+      "comments": 0,
+      "labels": [
+        "Future"
+      ],
+      "unanswered": false
+    }
+  ]
 }
