@@ -1,0 +1,6 @@
+{
+  "owners": ["todiane"],
+  "exclude": [],
+  "stale_days": 14,
+  "unanswered_issue_days": 7
+}

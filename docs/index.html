@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Source Dashboard</title>
+<meta name="description" content="One place to watch every open source project: PRs, issues, stars, releases and health.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Cpath d='M8 22V14M16 22V9M24 22v-6' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div>
+      <h1>Open Source Dashboard</h1>
+      <p class="sub" id="sub">Loading…</p>
+    </div>
+    <div class="owner-ctl">
+      <span id="owner-badge" class="badge" hidden></span>
+      <button id="owner-btn" class="btn">Owner mode</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="empty" class="card" hidden></div>
+
+  <section id="tiles" class="tiles" aria-label="Summary"></section>
+
+  <section id="attention-sec" class="card" hidden>
+    <h2>Needs attention <span class="count" id="attention-count"></span></h2>
+    <ul id="attention" class="list"></ul>
+  </section>
+
+  <section id="prs-sec" class="card" hidden>
+    <div class="sec-head">
+      <h2>Pull requests <span class="count" id="prs-count"></span></h2>
+      <div id="pr-filters" class="chips" role="group" aria-label="Filter pull requests"></div>
+    </div>
+    <div class="table-wrap"><table id="prs" class="tbl"></table></div>
+  </section>
+
+  <section id="repos-sec" class="card" hidden>
+    <h2>Repositories <span class="count" id="repos-count"></span></h2>
+    <div class="table-wrap"><table id="repos" class="tbl"></table></div>
+    <p class="muted small">Health score (0–100): activity 25 · CI on default branch 20 · licence 10 · community files 15 · PR responsiveness 15 · issue responsiveness 15. Click a score for its breakdown.</p>
+  </section>
+
+  <section id="traffic-sec" class="card" hidden>
+    <h2>Traffic <span class="badge">owner only</span></h2>
+    <p class="muted small">Last 14 days, fetched live from GitHub into your browser. Never stored in this repo or shown to visitors.</p>
+    <div class="table-wrap"><table id="traffic" class="tbl"></table></div>
+  </section>
+</main>
+
+<footer class="wrap foot muted small">
+  Public data only · refreshed by a scheduled GitHub Action ·
+  <a href="https://github.com/todiane/open-source-dashboard">source</a>
+</footer>
+
+<dialog id="token-dlg">
+  <form method="dialog" id="token-form">
+    <h3>Owner mode</h3>
+    <p class="small">Paste a GitHub personal access token to unlock traffic stats and merge buttons. It is kept in this browser only and sent only to api.github.com.</p>
+    <p class="small muted">Fine-grained token for your account with repository access to your public repos: <b>Pull requests: read &amp; write</b>, <b>Contents: read &amp; write</b> (merging), <b>Administration: read</b> (traffic). A classic token with <code>public_repo</code> also works.</p>
+    <input id="token-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" aria-label="GitHub token">
+    <p id="token-err" class="err small" role="alert" hidden></p>
+    <div class="row">
+      <button type="button" class="btn" id="token-cancel">Cancel</button>
+      <button type="submit" class="btn primary" id="token-ok">Unlock</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="merge-dlg">
+  <form method="dialog" id="merge-form">
+    <h3>Merge pull request?</h3>
+    <p id="merge-title" class="merge-title"></p>
+    <p id="merge-info" class="small muted"></p>
+    <label class="small">Method
+      <select id="merge-method">
+        <option value="squash">Squash and merge</option>
+        <option value="merge">Create a merge commit</option>
+        <option value="rebase">Rebase and merge</option>
+      </select>
+    </label>
+    <p id="merge-err" class="err small" role="alert" hidden></p>
+    <div class="row">
+      <button type="button" class="btn" id="merge-cancel">Cancel</button>
+      <button type="submit" class="btn primary" id="merge-ok">Merge</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>

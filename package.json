@@ -1,0 +1,13 @@
+{
+  "name": "open-source-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One dashboard for all your open source repos: PRs, issues, stars, releases and health.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "collect": "node scripts/collect.mjs",
+    "serve": "python3 -m http.server 8000 --directory docs"
+  },
+  "engines": { "node": ">=20" }
+}
