@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T04:24:57.177Z",
+  "generated_at": "2026-10-17T10:43:10.007Z",
   "owners": [
     "todiane"
   ],
   "config": {
+    "max_age_months": 15,
     "stale_days": 14,
-    "unanswered_issue_days": 7,
-    "max_age_months": 15
+    "unanswered_issue_days": 7
   },
   "totals": {
     "repos": 14,
@@ -33,7 +33,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-10-16T21:07:30Z",
+      "pushed_at": "2026-10-17T09:26:15Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
