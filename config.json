@@ -1,6 +1,7 @@
 {
   "owners": ["todiane"],
   "exclude": [],
+  "max_age_months": 15,
   "stale_days": 14,
   "unanswered_issue_days": 7
 }

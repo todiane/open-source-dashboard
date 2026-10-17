@@ -7,12 +7,20 @@ export function daysSince(iso, now = Date.now()) {
   return Math.floor((now - new Date(iso).getTime()) / DAY);
 }
 
+/** True if the repo was pushed to within the last `months` months (0/unset = no limit). */
+export function isRecent(repo, months, now = Date.now()) {
+  if (!months) return true;
+  const cutoff = new Date(now);
+  cutoff.setMonth(cutoff.getMonth() - months);
+  return new Date(repo.pushed_at).getTime() >= cutoff.getTime();
+}
+
 /**
  * The one gate that decides whether a repo may appear on the dashboard.
  * Public, not a fork, not archived/disabled, owned by an allow-listed account,
- * and not on the exclude list.
+ * not on the exclude list, and (if max_age_months is set) pushed recently.
  */
-export function isEligible(repo, { owners, exclude = [] }) {
+export function isEligible(repo, { owners, exclude = [], max_age_months }, now = Date.now()) {
   if (!repo || repo.private !== false) return false;
   if (repo.fork || repo.archived || repo.disabled) return false;
   const owner = String(repo.owner?.login ?? '').toLowerCase();
@@ -20,6 +28,7 @@ export function isEligible(repo, { owners, exclude = [] }) {
   const skip = exclude.map((e) => e.toLowerCase());
   if (skip.includes(String(repo.name).toLowerCase())) return false;
   if (skip.includes(String(repo.full_name).toLowerCase())) return false;
+  if (!isRecent(repo, max_age_months, now)) return false;
   return true;
 }
 

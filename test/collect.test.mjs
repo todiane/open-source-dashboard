@@ -19,6 +19,7 @@ const repos = [
   mk('secret', { private: true }),
   mk('forked', { fork: true }),
   mk('old', { archived: true }),
+  mk('ancient', { pushed_at: '2020-01-01T00:00:00Z' }),
   mk('stranger', { owner: { login: 'someone-else' }, full_name: 'someone-else/stranger' }),
 ];
 
@@ -78,7 +79,7 @@ test('collector writes only eligible public repos', async () => {
   assert.equal(data.repos[0].health.score, 97); // community 80% = 12/15
   // Nothing about excluded repos may be requested or leak into the output.
   const raw = JSON.stringify(data);
-  for (const name of ['secret', 'forked', 'stranger']) assert.ok(!raw.includes(name));
+  for (const name of ['secret', 'forked', 'stranger', 'ancient']) assert.ok(!raw.includes(name));
   assert.ok(!hit.some((p) => /secret|forked|stranger|traffic/.test(p)));
 
   const history = JSON.parse(await readFile(join(out, 'history.json'), 'utf8'));

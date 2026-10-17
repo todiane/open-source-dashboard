@@ -198,14 +198,14 @@ console.log(`${eligible.length} eligible repos`);
 const results = [];
 for (const r of eligible) results.push(await collectRepo(r));
 
-const repos = results.map((x) => x.repo).sort((a, b) => b.stars - a.stars || a.full_name.localeCompare(b.full_name));
+const repos = results.map((x) => x.repo).sort((a, b) => b.pushed_at.localeCompare(a.pushed_at));
 const prs = results.flatMap((x) => x.prs).sort((a, b) => a.created_at.localeCompare(b.created_at));
 const issues = results.flatMap((x) => x.issues).sort((a, b) => a.created_at.localeCompare(b.created_at));
 
 const data = {
   generated_at: new Date().toISOString(),
   owners: cfg.owners,
-  config: { stale_days: cfg.stale_days, unanswered_issue_days: cfg.unanswered_issue_days },
+  config: { max_age_months: cfg.max_age_months, stale_days: cfg.stale_days, unanswered_issue_days: cfg.unanswered_issue_days },
   totals: {
     repos: repos.length,
     stars: repos.reduce((a, r) => a + r.stars, 0),

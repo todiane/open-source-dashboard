@@ -40,7 +40,7 @@ const BUCKETS = {
   draft: ['Draft', 'neutral'],
 };
 
-const state = { data: null, history: {}, filter: 'all', sort: { key: 'stars', dir: -1 }, token: null, me: null, traffic: null };
+const state = { data: null, history: {}, filter: 'all', sort: { key: 'pushed', dir: -1 }, token: null, me: null, traffic: null };
 
 // ---- load ----
 async function load() {

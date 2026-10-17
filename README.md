@@ -17,7 +17,7 @@ GitHub Action (every 6h)  ->  scripts/collect.mjs  ->  docs/data/*.json  ->  Git
 
 ## Privacy rules (enforced in code and tests)
 
-- Only repos that are **public, not forks, not archived**, and **owned by an account listed in `config.json`** are ever included. Nobody can add a repo to your dashboard without a commit to this repo.
+- Only repos that are **public, not forks, not archived, and pushed to within `max_age_months`**, and **owned by an account listed in `config.json`** are ever included. Nobody can add a repo to your dashboard without a commit to this repo.
 - The collector uses the Action's built-in token and only reads public data. **Traffic stats are never collected into the repo** (it is public, so they would leak). Owner mode fetches them live into your browser.
 - Your token for owner mode is stored in your browser's `localStorage` and only sent to `api.github.com`. It is rejected unless it belongs to one of the `owners`. "Sign out" deletes it.
 - All text from GitHub (PR titles etc.) is rendered as plain text.
@@ -26,9 +26,9 @@ GitHub Action (every 6h)  ->  scripts/collect.mjs  ->  docs/data/*.json  ->  Git
 
 1. Edit `config.json`:
    ```json
-   { "owners": ["todiane"], "exclude": [], "stale_days": 14, "unanswered_issue_days": 7 }
+   { "owners": ["todiane"], "exclude": [], "max_age_months": 15, "stale_days": 14, "unanswered_issue_days": 7 }
    ```
-   `exclude` takes repo names (`"pipeline"`) or full names (`"todiane/pipeline"`).
+   `max_age_months` hides repos that haven't been pushed to for that long (set to `0` to show everything). Repos are listed newest push first. `exclude` takes repo names (`"pipeline"`) or full names (`"todiane/pipeline"`).
 2. **Settings → Pages**: deploy from branch `main`, folder `/docs`.
 3. **Actions → Collect data → Run workflow** for the first collection. After that it refreshes every 6 hours.
 4. Optional, for owner mode: create a [fine-grained token](https://github.com/settings/personal-access-tokens/new) for your account, with access to your public repos and these permissions: *Pull requests: read & write*, *Contents: read & write* (needed to merge), *Administration: read* (needed for traffic). A classic token with the `public_repo` scope also works. Click **Owner mode** and paste it.

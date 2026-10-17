@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { isEligible, reviewState, prBucket, healthScore } from '../scripts/lib.mjs';
+import { isEligible, isRecent, reviewState, prBucket, healthScore } from '../scripts/lib.mjs';
 
 const cfg = { owners: ['todiane'], exclude: ['skipme'] };
 const repo = (o = {}) => ({
@@ -73,4 +73,16 @@ test('healthScore: perfect repo scores 100, neglected repo scores low', () => {
     c, now,
   );
   assert.equal(bad.score, 0);
+});
+
+test('isRecent / isEligible apply the max_age_months cutoff', () => {
+  const now = Date.parse('2026-10-17T00:00:00Z');
+  const recent = repo({ pushed_at: '2025-08-01T00:00:00Z' }); // ~14.5 months
+  const old = repo({ pushed_at: '2025-06-01T00:00:00Z' }); // ~16.5 months
+  assert.equal(isRecent(recent, 15, now), true);
+  assert.equal(isRecent(old, 15, now), false);
+  assert.equal(isRecent(old, 0, now), true, 'no limit when unset');
+  const c = { ...cfg, max_age_months: 15 };
+  assert.equal(isEligible(recent, c, now), true);
+  assert.equal(isEligible(old, c, now), false);
 });
