@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-10-21T04:45:15.792Z",
+  "generated_at": "2026-10-21T11:48:09.682Z",
   "owners": [
-    "todiane"
+    "todiane",
+    "djangify"
   ],
   "config": {
     "max_age_months": 15,
@@ -9,14 +10,47 @@
     "unanswered_issue_days": 7
   },
   "totals": {
-    "repos": 14,
-    "stars": 5,
-    "forks": 1,
+    "repos": 22,
+    "stars": 7,
+    "forks": 3,
     "open_prs": 0,
     "ready_prs": 0,
     "open_issues": 0
   },
   "repos": [
+    {
+      "full_name": "todiane/open-source-dashboard",
+      "owner": "todiane",
+      "name": "open-source-dashboard",
+      "url": "https://github.com/todiane/open-source-dashboard",
+      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
+      "language": "JavaScript",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-21T10:33:58Z",
+      "ci": "pending",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 71,
+        "parts": {
+          "activity": 25,
+          "ci": 12,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
     {
       "full_name": "todiane/todiane",
       "owner": "todiane",
@@ -54,14 +88,17 @@
       }
     },
     {
-      "full_name": "todiane/open-source-dashboard",
-      "owner": "todiane",
-      "name": "open-source-dashboard",
-      "url": "https://github.com/todiane/open-source-dashboard",
-      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
-      "language": "JavaScript",
+      "full_name": "djangify/djangify",
+      "owner": "djangify",
+      "name": "djangify",
+      "url": "https://github.com/djangify/djangify",
+      "description": "Config files for my GitHub profile.",
+      "language": null,
       "license": null,
-      "topics": [],
+      "topics": [
+        "config",
+        "github-config"
+      ],
       "default_branch": "main",
       "stars": 0,
       "forks": 0,
@@ -69,16 +106,16 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-10-20T21:36:58Z",
-      "ci": "pending",
+      "pushed_at": "2026-10-14T17:52:10Z",
+      "ci": "none",
       "latest_release": null,
       "unreleased_commits": null,
       "community": 28,
       "health": {
-        "score": 71,
+        "score": 69,
         "parts": {
           "activity": 25,
-          "ci": 12,
+          "ci": 10,
           "license": 0,
           "community": 4,
           "prs": 15,
@@ -300,6 +337,112 @@
       }
     },
     {
+      "full_name": "djangify/adminita",
+      "owner": "djangify",
+      "name": "adminita",
+      "url": "https://github.com/djangify/adminita",
+      "description": "Django Tailwind Admin UI",
+      "language": "HTML",
+      "license": "MIT",
+      "topics": [
+        "django",
+        "django-admin",
+        "django-admin-theme",
+        "django-admin-themes"
+      ],
+      "default_branch": "main",
+      "stars": 2,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-09T14:04:34Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 85,
+      "health": {
+        "score": 98,
+        "parts": {
+          "activity": 25,
+          "ci": 20,
+          "license": 10,
+          "community": 13,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "djangify/todianedev",
+      "owner": "djangify",
+      "name": "todianedev",
+      "url": "https://github.com/djangify/todianedev",
+      "description": "Updating todiane.com",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-07T07:41:33Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 69,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "djangify/videos",
+      "owner": "djangify",
+      "name": "videos",
+      "url": "https://github.com/djangify/videos",
+      "description": "Help videos on how to use the Djangify eCommerce Builder",
+      "language": "Python",
+      "license": null,
+      "topics": [
+        "django"
+      ],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-05T22:16:01Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 69,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/stream",
       "owner": "todiane",
       "name": "stream",
@@ -399,6 +542,39 @@
       }
     },
     {
+      "full_name": "djangify/adminita_demo",
+      "owner": "djangify",
+      "name": "adminita_demo",
+      "url": "https://github.com/djangify/adminita_demo",
+      "description": "Adminita Django Admin Theme Demo Site",
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-01-31T15:54:43Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 48,
+        "parts": {
+          "activity": 4,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/secure-uploads",
       "owner": "todiane",
       "name": "secure-uploads",
@@ -418,6 +594,85 @@
       "open_issues": 0,
       "unanswered_issues": 0,
       "pushed_at": "2026-01-18T08:28:57Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 48,
+        "parts": {
+          "activity": 4,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "djangify/todiane",
+      "owner": "djangify",
+      "name": "todiane",
+      "url": "https://github.com/djangify/todiane",
+      "description": "Portfolio Site",
+      "language": "HTML",
+      "license": null,
+      "topics": [
+        "ai-search-optimization",
+        "django",
+        "django-backend",
+        "ecommerce",
+        "ecommerce-platform",
+        "portfolio-website"
+      ],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-12-15T01:39:23Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 48,
+        "parts": {
+          "activity": 4,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "djangify/djangify-site",
+      "owner": "djangify",
+      "name": "djangify-site",
+      "url": "https://github.com/djangify/djangify-site",
+      "description": "An eCommerce Store",
+      "language": "HTML",
+      "license": null,
+      "topics": [
+        "django",
+        "django-rest-framework",
+        "ecommerce",
+        "postgresql-database",
+        "tailwdindcss"
+      ],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-12-13T22:06:36Z",
       "ci": "none",
       "latest_release": null,
       "unreleased_commits": null,
@@ -462,6 +717,39 @@
           "ci": 10,
           "license": 0,
           "community": 0,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "djangify/myapp",
+      "owner": "djangify",
+      "name": "myapp",
+      "url": "https://github.com/djangify/myapp",
+      "description": null,
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2025-10-17T16:09:53Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 14,
+      "health": {
+        "score": 42,
+        "parts": {
+          "activity": 0,
+          "ci": 10,
+          "license": 0,
+          "community": 2,
           "prs": 15,
           "issues": 15
         }

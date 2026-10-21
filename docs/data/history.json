@@ -500,11 +500,15 @@
     }
   },
   "2026-10-21": {
+    "todiane/open-source-dashboard": {
+      "stars": 0,
+      "forks": 0
+    },
     "todiane/todiane": {
       "stars": 1,
       "forks": 0
     },
-    "todiane/open-source-dashboard": {
+    "djangify/djangify": {
       "stars": 0,
       "forks": 0
     },
@@ -532,6 +536,18 @@
       "stars": 1,
       "forks": 0
     },
+    "djangify/adminita": {
+      "stars": 2,
+      "forks": 1
+    },
+    "djangify/todianedev": {
+      "stars": 0,
+      "forks": 0
+    },
+    "djangify/videos": {
+      "stars": 0,
+      "forks": 0
+    },
     "todiane/stream": {
       "stars": 1,
       "forks": 0
@@ -544,11 +560,27 @@
       "stars": 0,
       "forks": 0
     },
+    "djangify/adminita_demo": {
+      "stars": 0,
+      "forks": 0
+    },
     "todiane/secure-uploads": {
       "stars": 1,
       "forks": 0
     },
+    "djangify/todiane": {
+      "stars": 0,
+      "forks": 0
+    },
+    "djangify/djangify-site": {
+      "stars": 0,
+      "forks": 1
+    },
     "todiane/promptsite": {
+      "stars": 0,
+      "forks": 0
+    },
+    "djangify/myapp": {
       "stars": 0,
       "forks": 0
     },
