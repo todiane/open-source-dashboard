@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:36:57.863Z",
+  "generated_at": "2026-10-21T04:45:15.792Z",
   "owners": [
     "todiane"
   ],
@@ -17,39 +17,6 @@
     "open_issues": 0
   },
   "repos": [
-    {
-      "full_name": "todiane/open-source-dashboard",
-      "owner": "todiane",
-      "name": "open-source-dashboard",
-      "url": "https://github.com/todiane/open-source-dashboard",
-      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
-      "language": "JavaScript",
-      "license": null,
-      "topics": [],
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-10-20T17:09:58Z",
-      "ci": "pending",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 28,
-      "health": {
-        "score": 71,
-        "parts": {
-          "activity": 25,
-          "ci": 12,
-          "license": 0,
-          "community": 4,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
     {
       "full_name": "todiane/todiane",
       "owner": "todiane",
@@ -69,7 +36,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-10-14T13:35:26Z",
+      "pushed_at": "2026-10-20T22:00:03Z",
       "ci": "passing",
       "latest_release": null,
       "unreleased_commits": null,
@@ -79,6 +46,39 @@
         "parts": {
           "activity": 25,
           "ci": 20,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "todiane/open-source-dashboard",
+      "owner": "todiane",
+      "name": "open-source-dashboard",
+      "url": "https://github.com/todiane/open-source-dashboard",
+      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
+      "language": "JavaScript",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-20T21:36:58Z",
+      "ci": "pending",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 71,
+        "parts": {
+          "activity": 25,
+          "ci": 12,
           "license": 0,
           "community": 4,
           "prs": 15,
