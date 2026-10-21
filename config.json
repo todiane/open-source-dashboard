@@ -1,5 +1,5 @@
 {
-  "owners": ["todiane"],
+  "owners": ["todiane", "djangify"],
   "exclude": [],
   "max_age_months": 15,
   "stale_days": 14,

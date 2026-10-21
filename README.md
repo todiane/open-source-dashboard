@@ -26,16 +26,18 @@ GitHub Action (every 6h)  ->  scripts/collect.mjs  ->  docs/data/*.json  ->  Git
 
 1. Edit `config.json`:
    ```json
-   { "owners": ["todiane"], "exclude": [], "max_age_months": 15, "stale_days": 14, "unanswered_issue_days": 7 }
+   { "owners": ["todiane", "djangify"], "exclude": [], "max_age_months": 15, "stale_days": 14, "unanswered_issue_days": 7 }
    ```
    `max_age_months` hides repos that haven't been pushed to for that long (set to `0` to show everything). Repos are listed newest push first. `exclude` takes repo names (`"pipeline"`) or full names (`"todiane/pipeline"`).
 2. **Settings → Pages**: deploy from branch `main`, folder `/docs`.
 3. **Actions → Collect data → Run workflow** for the first collection. After that it refreshes every 6 hours.
 4. Optional, for owner mode: create a [fine-grained token](https://github.com/settings/personal-access-tokens/new) for your account, with access to your public repos and these permissions: *Pull requests: read & write*, *Contents: read & write* (needed to merge), *Administration: read* (needed for traffic). A classic token with the `public_repo` scope also works. Click **Owner mode** and paste it.
 
-### A second account (e.g. a separate Djangify account)
+### More than one account (e.g. todiane and djangify)
 
-A GitHub token only works for one account, so run a second copy: fork or copy this repo into the other account, set `"owners": ["djangify"]` in its `config.json`, and enable Pages and the Action there. Use a token from that account for its owner mode.
+List every account in `owners`. The collector reads public data for all of them with the Action's built-in token, so the public view covers every account.
+
+Owner mode uses one token, and a GitHub token only works for one account. Paste a token from one of the listed accounts: owner mode then shows traffic and Merge buttons for that account's repos only. Sign out and paste the other account's token to manage the other account's repos.
 
 ## Merging
 
