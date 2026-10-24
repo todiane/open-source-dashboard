@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T04:35:31.061Z",
+  "generated_at": "2026-10-24T10:59:11.864Z",
   "owners": [
     "todiane",
     "djangify"
@@ -10,7 +10,7 @@
     "unanswered_issue_days": 7
   },
   "totals": {
-    "repos": 22,
+    "repos": 23,
     "stars": 7,
     "forks": 3,
     "open_prs": 0,
@@ -18,6 +18,39 @@
     "open_issues": 0
   },
   "repos": [
+    {
+      "full_name": "todiane/news",
+      "owner": "todiane",
+      "name": "news",
+      "url": "https://github.com/todiane/news",
+      "description": "Django and DRF news aggregator",
+      "language": "Python",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-24T08:25:11Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 79,
+        "parts": {
+          "activity": 25,
+          "ci": 20,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
     {
       "full_name": "todiane/open-source-dashboard",
       "owner": "todiane",
@@ -34,7 +67,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-10-23T21:24:03Z",
+      "pushed_at": "2026-10-24T04:35:32Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
