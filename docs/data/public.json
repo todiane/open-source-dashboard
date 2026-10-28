@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:53:18.170Z",
+  "generated_at": "2026-10-28T22:34:42.311Z",
   "owners": [
     "todiane",
     "djangify"
@@ -19,6 +19,39 @@
   },
   "repos": [
     {
+      "full_name": "todiane/stream",
+      "owner": "todiane",
+      "name": "stream",
+      "url": "https://github.com/todiane/stream",
+      "description": null,
+      "language": "HTML",
+      "license": null,
+      "topics": [],
+      "default_branch": "stream20i",
+      "stars": 1,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-10-28T19:03:15Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 14,
+      "health": {
+        "score": 67,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 0,
+          "community": 2,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/open-source-dashboard",
       "owner": "todiane",
       "name": "open-source-dashboard",
@@ -34,7 +67,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-10-28T05:41:35Z",
+      "pushed_at": "2026-10-28T12:53:19Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
@@ -470,39 +503,6 @@
           "ci": 10,
           "license": 0,
           "community": 4,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
-      "full_name": "todiane/stream",
-      "owner": "todiane",
-      "name": "stream",
-      "url": "https://github.com/todiane/stream",
-      "description": null,
-      "language": "HTML",
-      "license": null,
-      "topics": [],
-      "default_branch": "stream20i",
-      "stars": 1,
-      "forks": 0,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-10-05T22:15:58Z",
-      "ci": "none",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 14,
-      "health": {
-        "score": 67,
-        "parts": {
-          "activity": 25,
-          "ci": 10,
-          "license": 0,
-          "community": 2,
           "prs": 15,
           "issues": 15
         }

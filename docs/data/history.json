@@ -1146,6 +1146,10 @@
     }
   },
   "2026-10-28": {
+    "todiane/stream": {
+      "stars": 1,
+      "forks": 0
+    },
     "todiane/open-source-dashboard": {
       "stars": 0,
       "forks": 0
@@ -1196,10 +1200,6 @@
     },
     "djangify/videos": {
       "stars": 0,
-      "forks": 0
-    },
-    "todiane/stream": {
-      "stars": 1,
       "forks": 0
     },
     "todiane/welcome-window": {
