@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:22:54.503Z",
+  "generated_at": "2026-11-01T22:01:23.246Z",
   "owners": [
     "todiane",
     "djangify"
@@ -19,6 +19,39 @@
   },
   "repos": [
     {
+      "full_name": "todiane/news",
+      "owner": "todiane",
+      "name": "news",
+      "url": "https://github.com/todiane/news",
+      "description": "Django and DRF news aggregator",
+      "language": "Python",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-11-01T16:26:20Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 69,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/open-source-dashboard",
       "owner": "todiane",
       "name": "open-source-dashboard",
@@ -34,7 +67,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-11-01T06:02:22Z",
+      "pushed_at": "2026-11-01T13:22:55Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
@@ -79,39 +112,6 @@
           "ci": 10,
           "license": 0,
           "community": 2,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
-      "full_name": "todiane/news",
-      "owner": "todiane",
-      "name": "news",
-      "url": "https://github.com/todiane/news",
-      "description": "Django and DRF news aggregator",
-      "language": "Python",
-      "license": null,
-      "topics": [],
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-10-24T13:14:14Z",
-      "ci": "none",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 28,
-      "health": {
-        "score": 69,
-        "parts": {
-          "activity": 25,
-          "ci": 10,
-          "license": 0,
-          "community": 4,
           "prs": 15,
           "issues": 15
         }

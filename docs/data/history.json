@@ -1522,16 +1522,16 @@
     }
   },
   "2026-11-01": {
+    "todiane/news": {
+      "stars": 0,
+      "forks": 0
+    },
     "todiane/open-source-dashboard": {
       "stars": 0,
       "forks": 0
     },
     "todiane/stream": {
       "stars": 1,
-      "forks": 0
-    },
-    "todiane/news": {
-      "stars": 0,
       "forks": 0
     },
     "todiane/todiane": {
