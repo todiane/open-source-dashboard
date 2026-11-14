@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:21:20.811Z",
+  "generated_at": "2026-11-14T17:59:50.965Z",
   "owners": [
     "todiane",
     "djangify"
@@ -19,6 +19,39 @@
   },
   "repos": [
     {
+      "full_name": "todiane/pipeline",
+      "owner": "todiane",
+      "name": "pipeline",
+      "url": "https://github.com/todiane/pipeline",
+      "description": "CRM software",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-11-14T12:52:38Z",
+      "ci": "none",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 42,
+      "health": {
+        "score": 81,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 10,
+          "community": 6,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/open-source-dashboard",
       "owner": "todiane",
       "name": "open-source-dashboard",
@@ -34,7 +67,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-11-13T19:40:46Z",
+      "pushed_at": "2026-11-14T06:21:22Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
@@ -178,9 +211,9 @@
       "unreleased_commits": null,
       "community": 28,
       "health": {
-        "score": 69,
+        "score": 62,
         "parts": {
-          "activity": 25,
+          "activity": 18,
           "ci": 10,
           "license": 0,
           "community": 4,
@@ -215,9 +248,9 @@
       "unreleased_commits": 0,
       "community": 57,
       "health": {
-        "score": 84,
+        "score": 77,
         "parts": {
-          "activity": 25,
+          "activity": 18,
           "ci": 10,
           "license": 10,
           "community": 9,
@@ -290,39 +323,6 @@
           "ci": 20,
           "license": 0,
           "community": 4,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
-      "full_name": "todiane/pipeline",
-      "owner": "todiane",
-      "name": "pipeline",
-      "url": "https://github.com/todiane/pipeline",
-      "description": "CRM software",
-      "language": "Python",
-      "license": "MIT",
-      "topics": [],
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-10-09T20:34:22Z",
-      "ci": "none",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 42,
-      "health": {
-        "score": 74,
-        "parts": {
-          "activity": 18,
-          "ci": 10,
-          "license": 10,
-          "community": 6,
           "prs": 15,
           "issues": 15
         }
@@ -530,9 +530,9 @@
       "unreleased_commits": null,
       "community": 28,
       "health": {
-        "score": 54,
+        "score": 48,
         "parts": {
-          "activity": 10,
+          "activity": 4,
           "ci": 10,
           "license": 0,
           "community": 4,
