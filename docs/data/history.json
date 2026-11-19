@@ -3214,6 +3214,14 @@
     }
   },
   "2026-11-19": {
+    "todiane/deskledger": {
+      "stars": 0,
+      "forks": 0
+    },
+    "djangify/adminita": {
+      "stars": 2,
+      "forks": 1
+    },
     "todiane/open-source-dashboard": {
       "stars": 0,
       "forks": 0
@@ -3250,17 +3258,9 @@
       "stars": 0,
       "forks": 0
     },
-    "todiane/deskledger": {
-      "stars": 0,
-      "forks": 0
-    },
     "todiane/project_tracker": {
       "stars": 1,
       "forks": 0
-    },
-    "djangify/adminita": {
-      "stars": 2,
-      "forks": 1
     },
     "djangify/todianedev": {
       "stars": 0,

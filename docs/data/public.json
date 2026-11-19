@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:24:04.635Z",
+  "generated_at": "2026-11-19T20:35:50.314Z",
   "owners": [
     "todiane",
     "djangify"
@@ -19,6 +19,85 @@
   },
   "repos": [
     {
+      "full_name": "todiane/deskledger",
+      "owner": "todiane",
+      "name": "deskledger",
+      "url": "https://github.com/todiane/deskledger",
+      "description": "Local hosted software also available for self-hosting for one person business owners - solo professionals and self-employed looking for  simple to use bookkeeping software.",
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "bookkeeping",
+        "software",
+        "uk"
+      ],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-11-19T12:36:39Z",
+      "ci": "none",
+      "latest_release": {
+        "tag": "v0.1.1",
+        "published_at": "2026-10-09T08:32:00Z",
+        "url": "https://github.com/todiane/deskledger/releases/tag/v0.1.1"
+      },
+      "unreleased_commits": 4,
+      "community": 57,
+      "health": {
+        "score": 84,
+        "parts": {
+          "activity": 25,
+          "ci": 10,
+          "license": 10,
+          "community": 9,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
+      "full_name": "djangify/adminita",
+      "owner": "djangify",
+      "name": "adminita",
+      "url": "https://github.com/djangify/adminita",
+      "description": "Django Tailwind Admin UI",
+      "language": "HTML",
+      "license": "MIT",
+      "topics": [
+        "django",
+        "django-admin",
+        "django-admin-theme",
+        "django-admin-themes"
+      ],
+      "default_branch": "main",
+      "stars": 2,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-11-19T12:36:35Z",
+      "ci": "passing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 85,
+      "health": {
+        "score": 98,
+        "parts": {
+          "activity": 25,
+          "ci": 20,
+          "license": 10,
+          "community": 13,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/open-source-dashboard",
       "owner": "todiane",
       "name": "open-source-dashboard",
@@ -34,7 +113,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-11-18T20:29:57Z",
+      "pushed_at": "2026-11-19T07:24:06Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
@@ -329,47 +408,6 @@
       }
     },
     {
-      "full_name": "todiane/deskledger",
-      "owner": "todiane",
-      "name": "deskledger",
-      "url": "https://github.com/todiane/deskledger",
-      "description": "Local hosted software also available for self-hosting for one person business owners - solo professionals and self-employed looking for  simple to use bookkeeping software.",
-      "language": "Python",
-      "license": "MIT",
-      "topics": [
-        "bookkeeping",
-        "software",
-        "uk"
-      ],
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-10-09T15:24:35Z",
-      "ci": "none",
-      "latest_release": {
-        "tag": "v0.1.1",
-        "published_at": "2026-10-09T08:32:00Z",
-        "url": "https://github.com/todiane/deskledger/releases/tag/v0.1.1"
-      },
-      "unreleased_commits": 3,
-      "community": 57,
-      "health": {
-        "score": 77,
-        "parts": {
-          "activity": 18,
-          "ci": 10,
-          "license": 10,
-          "community": 9,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
       "full_name": "todiane/project_tracker",
       "owner": "todiane",
       "name": "project_tracker",
@@ -397,44 +435,6 @@
           "ci": 20,
           "license": 10,
           "community": 11,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
-      "full_name": "djangify/adminita",
-      "owner": "djangify",
-      "name": "adminita",
-      "url": "https://github.com/djangify/adminita",
-      "description": "Django Tailwind Admin UI",
-      "language": "HTML",
-      "license": "MIT",
-      "topics": [
-        "django",
-        "django-admin",
-        "django-admin-theme",
-        "django-admin-themes"
-      ],
-      "default_branch": "main",
-      "stars": 2,
-      "forks": 1,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-10-09T14:04:34Z",
-      "ci": "passing",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 85,
-      "health": {
-        "score": 91,
-        "parts": {
-          "activity": 18,
-          "ci": 20,
-          "license": 10,
-          "community": 13,
           "prs": 15,
           "issues": 15
         }
