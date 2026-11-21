@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:17:42.371Z",
+  "generated_at": "2026-11-21T07:05:39.671Z",
   "owners": [
     "todiane",
     "djangify"
@@ -34,7 +34,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-11-20T07:14:29Z",
+      "pushed_at": "2026-11-20T20:17:43Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
@@ -254,9 +254,9 @@
       "unreleased_commits": null,
       "community": 28,
       "health": {
-        "score": 79,
+        "score": 72,
         "parts": {
-          "activity": 25,
+          "activity": 18,
           "ci": 20,
           "license": 0,
           "community": 4,
