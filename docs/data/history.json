@@ -3402,6 +3402,10 @@
     }
   },
   "2026-11-21": {
+    "todiane/pipeline": {
+      "stars": 0,
+      "forks": 0
+    },
     "todiane/open-source-dashboard": {
       "stars": 0,
       "forks": 0
@@ -3415,10 +3419,6 @@
       "forks": 1
     },
     "todiane/news": {
-      "stars": 0,
-      "forks": 0
-    },
-    "todiane/pipeline": {
       "stars": 0,
       "forks": 0
     },
