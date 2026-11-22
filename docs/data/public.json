@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:45:56.472Z",
+  "generated_at": "2026-11-22T19:38:07.231Z",
   "owners": [
     "todiane",
     "djangify"
@@ -19,6 +19,44 @@
   },
   "repos": [
     {
+      "full_name": "djangify/adminita",
+      "owner": "djangify",
+      "name": "adminita",
+      "url": "https://github.com/djangify/adminita",
+      "description": "Django Tailwind Admin UI",
+      "language": "HTML",
+      "license": "MIT",
+      "topics": [
+        "django",
+        "django-admin",
+        "django-admin-theme",
+        "django-admin-themes"
+      ],
+      "default_branch": "main",
+      "stars": 2,
+      "forks": 1,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-11-22T17:18:22Z",
+      "ci": "failing",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 85,
+      "health": {
+        "score": 78,
+        "parts": {
+          "activity": 25,
+          "ci": 0,
+          "license": 10,
+          "community": 13,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
+    {
       "full_name": "todiane/open-source-dashboard",
       "owner": "todiane",
       "name": "open-source-dashboard",
@@ -34,7 +72,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-11-21T19:14:41Z",
+      "pushed_at": "2026-11-22T06:45:57Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
@@ -120,44 +158,6 @@
           "ci": 10,
           "license": 10,
           "community": 9,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
-      "full_name": "djangify/adminita",
-      "owner": "djangify",
-      "name": "adminita",
-      "url": "https://github.com/djangify/adminita",
-      "description": "Django Tailwind Admin UI",
-      "language": "HTML",
-      "license": "MIT",
-      "topics": [
-        "django",
-        "django-admin",
-        "django-admin-theme",
-        "django-admin-themes"
-      ],
-      "default_branch": "main",
-      "stars": 2,
-      "forks": 1,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-11-19T12:36:35Z",
-      "ci": "passing",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 85,
-      "health": {
-        "score": 98,
-        "parts": {
-          "activity": 25,
-          "ci": 20,
-          "license": 10,
-          "community": 13,
           "prs": 15,
           "issues": 15
         }
