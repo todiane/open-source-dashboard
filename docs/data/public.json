@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:53:01.105Z",
+  "generated_at": "2026-11-24T22:25:58.838Z",
   "owners": [
     "todiane",
     "djangify"
@@ -18,6 +18,39 @@
     "open_issues": 0
   },
   "repos": [
+    {
+      "full_name": "todiane/open-source-dashboard",
+      "owner": "todiane",
+      "name": "open-source-dashboard",
+      "url": "https://github.com/todiane/open-source-dashboard",
+      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
+      "language": "JavaScript",
+      "license": null,
+      "topics": [],
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "watchers": null,
+      "open_prs": 0,
+      "open_issues": 0,
+      "unanswered_issues": 0,
+      "pushed_at": "2026-11-24T09:53:02Z",
+      "ci": "pending",
+      "latest_release": null,
+      "unreleased_commits": null,
+      "community": 28,
+      "health": {
+        "score": 71,
+        "parts": {
+          "activity": 25,
+          "ci": 12,
+          "license": 0,
+          "community": 4,
+          "prs": 15,
+          "issues": 15
+        }
+      }
+    },
     {
       "full_name": "djangify/adminita",
       "owner": "djangify",
@@ -51,39 +84,6 @@
           "ci": 20,
           "license": 10,
           "community": 13,
-          "prs": 15,
-          "issues": 15
-        }
-      }
-    },
-    {
-      "full_name": "todiane/open-source-dashboard",
-      "owner": "todiane",
-      "name": "open-source-dashboard",
-      "url": "https://github.com/todiane/open-source-dashboard",
-      "description": "An Open Source Dashboard showing all my open source projects including PR requests and contributors",
-      "language": "JavaScript",
-      "license": null,
-      "topics": [],
-      "default_branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "watchers": null,
-      "open_prs": 0,
-      "open_issues": 0,
-      "unanswered_issues": 0,
-      "pushed_at": "2026-11-23T23:52:36Z",
-      "ci": "pending",
-      "latest_release": null,
-      "unreleased_commits": null,
-      "community": 28,
-      "health": {
-        "score": 71,
-        "parts": {
-          "activity": 25,
-          "ci": 12,
-          "license": 0,
-          "community": 4,
           "prs": 15,
           "issues": 15
         }

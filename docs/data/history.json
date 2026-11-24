@@ -3684,13 +3684,13 @@
     }
   },
   "2026-11-24": {
-    "djangify/adminita": {
-      "stars": 2,
-      "forks": 1
-    },
     "todiane/open-source-dashboard": {
       "stars": 0,
       "forks": 0
+    },
+    "djangify/adminita": {
+      "stars": 2,
+      "forks": 1
     },
     "todiane/pipeline": {
       "stars": 0,
