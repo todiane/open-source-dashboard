@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:15:56.842Z",
+  "generated_at": "2026-11-28T07:46:37.629Z",
   "owners": [
     "todiane",
     "djangify"
@@ -34,7 +34,7 @@
       "open_prs": 0,
       "open_issues": 0,
       "unanswered_issues": 0,
-      "pushed_at": "2026-11-27T08:30:01Z",
+      "pushed_at": "2026-11-27T21:15:58Z",
       "ci": "pending",
       "latest_release": null,
       "unreleased_commits": null,
